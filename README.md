@@ -1,6 +1,8 @@
 # bilibili-chrome-plugin
 bilibili download B站视频下载 谷歌浏览器插件
 
+![示例](https://github.com/FEYeh/bilibili-chrome-plugin/blob/main/demo.png)
+
 ## 安装
 ```
 第一步
