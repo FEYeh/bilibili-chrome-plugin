@@ -1,0 +1,46 @@
+{
+    "name": "Chrome插件Demo",
+    "version": "1.0",
+    "description": "React开发chrome插件Demo。",
+    "icons": {
+        "16": "favicon.ico",
+        "48": "favicon.ico",
+        "128": "favicon.ico"
+    },
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "favicon.ico",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "scripts": [
+            "static/js/background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "static/js/content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [
+        "cookies",
+        "tabs",
+        "declarativeContent",
+        "storage",
+        "notifications"
+    ],
+    "web_accessible_resources": [
+        "insert.js",
+        "static/js/background.js"
+    ],
+    "externally_connectable": {
+        "matches": ["*://localhost/*"]
+    }
+}

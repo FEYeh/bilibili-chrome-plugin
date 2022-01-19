@@ -1,0 +1,22 @@
+{
+  "files": {
+    "background.js": "/static/js/background.js",
+    "background.js.map": "/static/js/background.js.map",
+    "content.js": "/static/js/content.js",
+    "content.js.map": "/static/js/content.js.map",
+    "main.css": "/static/css/main.css",
+    "main.js": "/static/js/main.js",
+    "main.js.map": "/static/js/main.js.map",
+    "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "service-worker.js.map": "/service-worker.js.map",
+    "static/css/main.css.map": "/static/css/main.css.map",
+    "static/js/main.js.LICENSE.txt": "/static/js/main.js.LICENSE.txt",
+    "workbox-8a532145.js": "/workbox-8a532145.js",
+    "workbox-8a532145.js.map": "/workbox-8a532145.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.css",
+    "static/js/main.js"
+  ]
+}
