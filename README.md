@@ -1,6 +1,8 @@
 # bilibili-chrome-plugin
 bilibili download B站视频下载 谷歌浏览器插件
 
+最最最强大的B站视频下载器，亲测有效，妈妈再也不用担心我下载B站视频了~！(#^.^#)
+
 ![示例](https://github.com/FEYeh/bilibili-chrome-plugin/blob/main/demo.png)
 
 ## 安装
